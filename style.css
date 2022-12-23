@@ -60,3 +60,25 @@ body {
     margin-left: 5px;
     width: 80%;
   }
+
+  footer h1 {
+    font-size: 200%;
+    border: 0 50px 0 0;
+    width: 20%;
+    border-right: 50px darkcyan;
+    overflow-wrap: break-word;
+    align-self: flex-end;
+    border-right: 5px solid var(--colorbody);
+    flex: 0 0 20%;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    list-style: none;
+    border-bottom: 10px var(--colorbody);
+    width: 80%;
+    font-weight: bold;
+    align-self: flex-end;
+  }
