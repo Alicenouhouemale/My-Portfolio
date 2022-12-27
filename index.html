@@ -1,108 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style.css">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1>Alice Nouhouemale</h1>
-      <nav>
-        <ul>
-          <li><img src="" alt="my own picture" /></li>
-          <li>
-            <a href="#introduction" alt="About me">About Me</a>
-          </li>
-          <li>
-            <a href="#my projects" alt="projects">My Projects</a>
-          </li>
-          <li>
-            <a href="" alt="my resume" target="_blank">My Resume</a>
-          </li>
-          <li>
-            <a href="#contact-me" alt="contact">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-        <section id="introduction">
-            <h1>About Me</h1>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus reiciendis quos a sint, accusamus tenetur commodi blanditiis mollitia alias quis repellendus eveniet qui dicta in asperiores consectetur harum inventore fuga!
-                <br />
-                <br />
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nostrum dolorum consectetur obcaecati facere omnis, sed molestiae nobis vero sint! Distinctio in a ullam officiis inventore est iure nesciunt laboriosam?
-                <br />
-                <br />
-                I learn skills through Intensive program focused on gaining technical
-                programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap,
-                Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js, and
-                ReactJS.
-              </p>
-        </section>
-        <div class="card-group">
-          <section class="projects">
-            <h1 id="project">My Projects</h1>
-          </section>
-        <div class="card">
-          <img src="Project 1 imag here" style="height:45%;" class="card-img-top" alt="auto">
-          <div class="card-body">
-            <h5 class="card-title">Who's Lyric is That Anyway?</h5>
-            <p> This application was built by a team to allow people to search for a song via name of song or lyric snippet. The search result will have the song title, artist, and any nearby concert where the artist is performing. There will be a link to seatgeek if there are any said concert(s). Your three most recent searches will also be saved via local storage.</p>
-            <p>Technologies Used: HTML, CSS, JavaScript, Foundation (Materialize), API's (Shazam and SeatGeek)</p>
-            <button type="button" class="btn btn-primary" onclick="window.location.href='https://github.com/Alicenouhouemale/octo-quacamole';" target="_blanck">Link to project 1</button>
-          </div>
-        </div>
-        <div class="card">
-          <img src="Project 2 imag here" style="height:45%;" class="card-img-top" alt="img2">
-          <div class="card-body">
-            <h5 class="card-title">Uno Moss</h5>
-            <p>Uno Moss is a mobile-first app that allows new and existing botany enthusiasts to track, post, and share field notes about their favorite flora discoveries.</p>
-            <p>Technologies Used: Express.js, Multer, Bootstrap, Handlebars, JavaScript, CSS, Node.js</p>
-            <button type="button" class="btn btn-secondary"  onclick="window.location.href='https://github.com/Alicenouhouemale/uno-moss';">Link for project 2</button>
-          </div>
-        </div>
-        <div class="card">
-          <img src="imag here" style="height:45%;" class="card-img-top" alt="img3">
-          <div class="card-body">
-            <h5 class="card-title">Password Generator</h5>
-            <p>Built with HTML, CSS, and JavaScript, the password generator app allows you to randomly generate a password that meets certain criteria in ordor to create a strong password that provides greater security.</p>
-            <button type="button" class="btn btn-secondary"  onclick="window.location.href='https://github.com/Alicenouhouemale/Password-generator';">Link for password generator</button>
-          </div>
-        </div>
-        <div class="card">
-          <img src="imag here" style="height:45%;" class="card-img-top" alt="img4">
-          <div class="card-body">
-            <h5 class="card-title">Code Quiz</h5>
-            <p>Built with HTML, CSS, and JavaScript, the code quiz app tests your knowledge in JavaScript fundamentals</p>
-            <button type="button" class="btn btn-secondary"  onclick="window.location.href='https://github.com/Alicenouhouemale/Code-Quiz';">Link for code quiz</button>
-          </div>
-        </div>
-        <div class="card">
-          <img src="imag here" class="card-img-top" alt="img5">
-          <div class="card-body">
-            <h5 class="card-title">Work Day Scheduler</h5>
-            <p>Built with Third-Party APIs, Work Day Scheduler app helps people to follow their tasks day by day </p>
-            <button type="button" class="btn btn-secondary" onclick="window.location.href='https://github.com/Alicenouhouemale/Work-Day-Scheduler';">Link for Work Day Scheduler</button>
-          </div>
-        </div>
-    </main>
-    <footer>
-        <h1 id="contact-me">Contact me</h1>
-      <ul>
-        <li><a href="mailto:alicenouhouemale@gmail.com">Email</a></li>
 
-        <li><a href="https://github.com/Alicenouhouemale">GitHub</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <img src="./assets/images/my-own-pic.jpg" class="portrait" alt="my own picture" />
+    <h1>Alice Nouhouemale</h1>
+    <nav>
+      <ul>
+        <li></li>
         <li>
-          <a href="https://www.linkedin.com/in/alice-nouhouemale">LinkedIn</a>
+          <a href="#introduction" alt="About me">About Me</a>
         </li>
-        <li><a href="phone number">4252402401</a></li>
+        <li>
+          <a href="#my projects" alt="projects">My Projects</a>
+        </li>
+        <li>
+          <a href="./assets/images/Alice N. Software Dev Resume.pdf" alt="my resume" target="_blank">My Resume</a>
+        </li>
+        <li>
+          <a href="#contact-me" alt="contact">Contact Me</a>
+        </li>
       </ul>
-    </footer>
-    
+    </nav>
+  </header>
+  <main>
+    <section id="introduction">
+      <h1>About Me</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus reiciendis quos a sint, accusamus tenetur
+        commodi blanditiis mollitia alias quis repellendus eveniet qui dicta in asperiores consectetur harum inventore
+        fuga!
+        <br />
+        <br />
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nostrum dolorum consectetur obcaecati facere
+        omnis, sed molestiae nobis vero sint! Distinctio in a ullam officiis inventore est iure nesciunt laboriosam?
+        <br />
+        <br />
+        I learn skills through Intensive program focused on gaining technical
+        programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap,
+        Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js, and
+        ReactJS.
+      </p>
+    </section>
+    <div class="card-group">
+      <section class="projects">
+        <h1 id="project">My Projects</h1>
+      </section>
+      <section class="project-section">
+
+      <div class="card">
+        <img src="./assets/images/project-one.png" style="height:45%;" class="octo-quacamole" alt="auto">
+        <div class="card-body">
+          <h5 class="card-title">Who's Lyric is That Anyway?</h5>
+          <p> This application was built by a team to allow people to search for a song via name of song or lyric
+            snippet. The search result will have the song title, artist, and any nearby concert where the artist is
+            performing. There will be a link to seatgeek if there are any said concert(s). Your three most recent
+            searches will also be saved via local storage.</p>
+          <p>Technologies Used: HTML, CSS, JavaScript, Foundation (Materialize), API's (Shazam and SeatGeek)</p>
+          <button type="button" class="btn btn-primary"
+            onclick="window.location.href='https://github.com/Alicenouhouemale/octo-quacamole';" target="_blanck">Link
+            to project 1</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/images/project-two.png" style="height:45%;" class="uno-moss" alt="img2">
+        <div class="card-body">
+          <h5 class="card-title">Uno Moss</h5>
+          <p>Uno Moss is a mobile-first app that allows new and existing botany enthusiasts to track, post, and share
+            field notes about their favorite flora discoveries.</p>
+          <p>Technologies Used: Express.js, Multer, Bootstrap, Handlebars, JavaScript, CSS, Node.js</p>
+          <button type="button" class="btn btn-secondary"
+            onclick="window.location.href='https://github.com/Alicenouhouemale/uno-moss';">Link for project 2</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./assets/images/password-generator.png" style="height:45%;" class="password-generator" alt="img3">
+        <div class="card-body">
+          <h5 class="card-title">Password Generator</h5>
+          <p>Built with HTML, CSS, and JavaScript, the password generator app allows you to randomly generate a password
+            that meets certain criteria in ordor to create a strong password that provides greater security.</p>
+          <button type="button" class="btn btn-secondary"
+            onclick="window.location.href='https://github.com/Alicenouhouemale/Password-generator';">Link for password
+            generator</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/images/code-quiz.png" style="height:45%;" class="code-quiz" alt="img4">
+        <div class="card-body">
+          <h5 class="card-title">Code Quiz</h5>
+          <p>Built with HTML, CSS, and JavaScript, the code quiz app tests your knowledge in JavaScript fundamentals</p>
+          <button type="button" class="btn btn-secondary"
+            onclick="window.location.href='https://github.com/Alicenouhouemale/Code-Quiz';">Link for code quiz</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/images/work-day.png" class="Work-Day-Scheduler" alt="img5">
+        <div class="card-body">
+          <h5 class="card-title">Work Day Scheduler</h5>
+          <p>Built with Third-Party APIs, Work Day Scheduler app helps people to follow their tasks day by day </p>
+          <button type="button" class="btn btn-secondary"
+            onclick="window.location.href='https://github.com/Alicenouhouemale/Work-Day-Scheduler';">Link for Work Day
+            Scheduler</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <h1 id="contact-me">Contact me</h1>
+    <ul>
+      <li><a href="mailto:alicenouhouemale@gmail.com">Email</a></li>
+
+      <li><a href="https://github.com/Alicenouhouemale">GitHub</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/alice-nouhouemale">LinkedIn</a>
+      </li>
+      <li><a href="phone number">4252402401</a></li>
+    </ul>
+  </footer>
+
 </body>
+
 </html>

@@ -42,6 +42,37 @@ body {
     font-weight: bold;
     text-decoration: none;
   }
+
+.portrait {
+    height: 118px;
+    width: auto;
+}
+
+.octo-quacamole {
+    width: 100%;
+}
+
+.uno-moss {
+    width: 100%;
+}
+
+.password-generator {
+    width: 100%;
+}
+
+.code-quiz {
+    width: 100%;
+}
+
+.Work-Day-Scheduler {
+    width: 100%;
+}
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
   #introduction {
     display: flex;
     justify-content: space-around;
@@ -59,6 +90,28 @@ body {
     flex-direction: column;
     margin-left: 5px;
     width: 80%;
+  }
+
+  .projects {
+    margin: 10px;
+    padding: 0;
+    align-self: flex-end;
+    align-items: center;
+  }
+
+  .card-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 6rem;
+  }
+  .card {
+    margin: 2rem;
+    float: right;
+    width: 20rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: green;
   }
 
   footer h1 {
@@ -82,3 +135,34 @@ body {
     font-weight: bold;
     align-self: flex-end;
   }
+
+  @media screen and (max-width: 992px) {
+    header {
+      width: 100%;
+    }
+    main {
+      width: 100%;
+    }
+    .card-text {
+      font-size: small;
+      width: 70%;
+    }
+    footer {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    header {
+      width: 100%;
+    }
+    main {
+      width: 100%;
+    }
+    .card-text {
+      font-size: xx-small;
+      width: 90%;
+    }
+    */ footer {
+        width: 100%;
+      }
+    }
